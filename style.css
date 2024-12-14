@@ -32,3 +32,13 @@ h1{
     display: block;
     margin: 5px auto;
 }
+.prod-title{
+    color: #cc0066;
+    margin: 0 auto;
+    text-align: center;
+}
+.prod-price{
+    color: #ff0080;
+    text-align: center;
+    padding: 5px;
+}
