@@ -6,12 +6,19 @@
     <title>Document</title>
 </head>
 <body>
-    hello
-    <p>
-        this is paragraph
-    </p>
-
-    <div>hi </div>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quis quaerat ad deleniti, nam quisquam sequi corrupti sapiente, vero voluptates vel similique, nisi voluptatem in delectus pariatur eum deserunt voluptatum?</p>
+    <div class="main-container">
+        <h1>Clothes Shop</h1>
+        <div class="card-container">
+            <div class="card">
+                <img src="./images/ladies-collar-shirt.jpg" alt="" class="prod-img">
+                <h2 class="prod-title">Collar Shirt</h2>
+                <p class="prod-price">Rs.899</p>
+                <div class="icon-container">
+                    <img src="./images/minus.png" alt="" class="icon" onclick="dec(event)">
+                    <span class="quantity">1</span>
+                    <img src="./images/add.png" alt="" class="icon" onclick="inc(event)">
+                </div>
+                <button class="btn">Buy Now</button>
+            </div>
 </body>
 </html>
