@@ -18,3 +18,17 @@ h1{
     justify-content: space-around;
     flex-wrap: wrap;
 }
+.card{
+    height: 350px;
+    width: 250px;
+    background-color: white;
+    margin: 20px;
+    border: 2px solid #cc0066;
+    border-radius: 20px;
+}
+.prod-img{
+    width: 200px;
+    height: 180px;
+    display: block;
+    margin: 5px auto;
+}
